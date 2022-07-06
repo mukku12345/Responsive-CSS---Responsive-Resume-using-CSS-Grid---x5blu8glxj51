@@ -27,11 +27,13 @@ justify-content: center;
 .left-section{
 column-span: 300px;
 background-color: rgb(108, 87, 87);
+/* grid-column: 300px; */
 
 }
 .right-section{
     column-span: 700px;
 background-color:rgb(129, 126, 122);
+grid-column: 700px;
 padding-top:  2rem ;
 padding-bottom: 2rem ;
 padding-left:  3rem ;
@@ -57,14 +59,17 @@ padding: 0.8rem;
 font-size: 1.2rem;
 font-weight: 700;
 letter-spacing:0.02px;
+text-transform: uppercase;
 text-align: center;
 color: whitesmoke;
+
 
 }
 .designation{
 
     font-size: 1rem;
     text-align: center;
+    text-transform: uppercase;
     padding-bottom: 0.5rem;
     color: rgb(227, 123, 123);
 }
@@ -104,6 +109,7 @@ width: 25px;
 .skills{
     font-size: 0.75rem;
     text-align: center;
+    text-transform: uppercase;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 00.5rem;
