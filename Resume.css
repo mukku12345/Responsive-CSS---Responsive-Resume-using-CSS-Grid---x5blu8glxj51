@@ -1,0 +1,139 @@
+*{
+margin: 0px;
+/* padding:0px; */
+}
+@media (max-width:674px) {
+  
+#mc{
+    display: block;
+    grid-template-columns:repeat(1,1fr);
+
+
+}
+
+}
+
+
+
+.main-content{
+min-height: 1000px;
+width: 90%;
+display: grid;
+margin: 0 auto;
+grid-template-columns: 300px 700px;
+justify-content: center;
+
+}
+.left-section{
+column-span: 300px;
+background-color: rgb(108, 87, 87);
+
+}
+.right-section{
+    column-span: 700px;
+background-color:rgb(129, 126, 122);
+padding-top:  2rem ;
+padding-bottom: 2rem ;
+padding-left:  3rem ;
+padding-right:3rem;
+
+}
+.profile-details{
+padding: 1rem;
+
+
+}
+.profile{
+padding: 1rem;
+margin: auto;
+display:block;
+border: 5px white solid;
+border-radius: 30%;
+width: 60%;
+
+}
+.name{
+padding: 0.8rem;
+font-size: 1.2rem;
+font-weight: 700;
+letter-spacing:0.02px;
+text-align: center;
+color: whitesmoke;
+
+}
+.designation{
+
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: rgb(227, 123, 123);
+}
+.description{
+
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: aliceblue;
+    border-top: 1px white solid;
+}
+.contact-item{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    
+}
+.icon{
+height: 25px;
+width: 25px;
+
+
+}
+.contactAndLocation{
+    padding: 1rem;
+    display: block;
+
+}
+.cl{
+    height: 11px;
+    width: 13px;
+}
+.text{
+    color: whitesmoke;
+    font-size: 10px;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 00.5rem;
+    padding-left: 00.5rem;
+    color: whitesmoke;
+}
+.skill-name{
+font-size: 0.65rem;
+font-weight: 0.65rem;
+text-align: left;
+padding-bottom: 0.5rem;
+color: whitesmoke;
+
+}
+.progress-bar{
+    border: 1px white solid;
+    height: 4px;
+    /* padding-bottom: 5rem; */
+    border-radius: 5px;
+
+}
+.list{
+    color: whitesmoke;
+}
+
+.right-main-content{
+font-size: 1.2rem;
+font-weight: 700;
+padding: 00.5rem;
+letter-spacing: 1px;
+color: whitesmoke;
+
+}
